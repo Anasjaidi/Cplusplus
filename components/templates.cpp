@@ -8,8 +8,8 @@ void Print(T obj) {
 
 int main()
 {
-  Print(1.2f);
-  Print(1);
-  Print("anas");
+  Print<float>(1.2f);
+  Print<int>(1);
+  Print<std::string>("anas");
   return 0;
 }
