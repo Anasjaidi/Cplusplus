@@ -9,5 +9,6 @@ int main(int argc, char const *argv[])
   int*  ptr = &a;
   std::cout << *ptr << std::endl;
   std::cout << str << std::endl;
+  delete[] str;
   return 0;
 }
