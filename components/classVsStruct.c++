@@ -5,6 +5,10 @@
  * struct: is public by deafult
  * **/
 
+/**
+ * structs: are made only for compatibilite with c
+ * but best use of them to store data (only struct of attrs)
+*/
 class classVsStruct
 {
   int b; // private
@@ -16,6 +20,7 @@ struct classVsStruct
   int b; // public
   private:
   int a; // private
+  void fn() {};
 };
 
 
