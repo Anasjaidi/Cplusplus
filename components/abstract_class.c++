@@ -18,11 +18,21 @@ public:
   }
 };
 
+class Abs {
+  public:
+  virtual void foo() = 0;
+};
 
+class derivede: public Abs {
+  virtual void foo() {
+
+  }
+};
 
 int main(int argc, char const *argv[])
 {
   animal *d = new Dog();
   d->make_sound();
+  Abs *n = new derivede();
   return 0;
 }
