@@ -4,7 +4,7 @@
  * enums just a named values
 */
 enum Dir {
-  A,
+  A = 9,
   B,
   C
 };
