@@ -3,7 +3,8 @@
 /**
  * enums just a named values
 */
-enum Dir {
+// enums by def 4 bytes
+enum Dir : unsigned char{
   A = 9,
   B,
   C
